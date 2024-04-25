@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#1b1d1f;
+    color: white;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    max-width: 1070px;
+    width: 100%;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.logo span{
+    color: rgb(255, 140, 0) ;
+	text-decoration:none;
+}
+.logo{
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+	text-decoration:none;
+}
+
+.fruits-heading {
+    padding-left: 50px;
+}
+
+#popular-product{
+    margin: 80px auto;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    align-items: center;
+    margin: 40px 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.product-box img{
+    width: 90%;
+    height: 180px;
+    object-fit: contain;
+    object-position: center;
+    margin: auto;
+}
+.product-box{
+    width: 100%;
+    border: 3px solid #eeeeee;
+    border-radius: 20px;
+    background-color: rgb(225, 216, 205);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+}
+
+.product-box:hover img{
+    transform: scale(1.1);
+    transition: all ease 0.1s;    
+}
+
+.product-box strong{
+    color: #202020;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.product-box .quantity{
+    color: #949494;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.product-box .price{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #393939;
+}
+.product-box .cart-btn{
+    width:100%;
+    height: 40px;
+    background-color: #3b3b3bcb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: all ease 0.3s;
+    border-radius: 20px;
+}
+
+.product-box .cart-btn i{
+    margin-right: 10px;
+}
+.product-box .cart-btn:hover{
+    background-color: #4eb060;
+    color: #ffffff;
+    transition: all ease 0.3s;
+}
+.product-box .like-btn{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    color: #c9c9c9;
+    font-size: 1.3rem;
+}
+
+.like-btn:hover {
+    color: red;
+    cursor: pointer;
+}

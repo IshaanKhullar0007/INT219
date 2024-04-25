@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>
+            
+            Shopping Cart
+        
+        </title>
+
+		<link rel ="stylesheet" type="text/css" href="Shopping Cart CSS.css">
+
+		<script src="https://kit.fontawesome.com/9088cc6401.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	</head>
+	
+	<link rel="shortcut icon" type="image/jpg" href="C:\Users\hp\Desktop\College\First Semester\Introduction To Web Technologies\Notepad ++ Files\Project\favicon.ico"/>
+
+    <body>
+        <nav class="navigation">
+        <a href="index.html" class="logo" style="color:white">
+
+            <span>Fancy</span>Garments
+
+        </a>
+        </nav>
+
+        <div class="container">
+
+            <h1>
+                
+                Shopping Cart
+            
+            </h1>
+
+            <div class="cart">
+
+                <div class="products">
+
+                    <div class="product1">
+
+                        <img src="images\atta.webp">
+
+                        <div class="product-info">
+
+                            <h3 class="product-name">
+                                
+                                Captain American Shirt
+                            
+                            </h3>
+
+                            <h4 class="product-price">
+                                
+                                Rs. 350
+                            
+                            </h4>
+
+                            <h4 class="product-offer">
+                                
+                                
+                            
+                            </h4>
+
+                            <p class="product-quantity">
+                                
+                                Qnt: 
+                                
+                                <input value="1" name="" id="p1">
+                            
+                            </p>
+
+                            <p class="product-remove">
+
+                                <i class="fas fa-trash-alt"></i>
+
+                                <span class="remove1">
+                                    
+                                    Remove
+                                
+                                </span>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product2">
+
+                        <img src="images\maggi.png">
+
+                        <div class="product-info">
+
+                            <h3 class="product-name">
+                                
+                                Jean
+                            
+                            </h3>
+
+                            <h4 class="product-price">
+                                
+                                Rs. 1000
+                            
+                            </h4>
+
+                            <h4 class="product-offer">
+                                
+                                
+                            
+                            </h4>
+
+                            <p class="product-quantity">
+                                
+                                Qnt: 
+                                
+                                <input value="1" name="" id="p2">
+                            
+                            </p>
+                            <p class="product-remove">
+
+                                <i class="fas fa-trash-alt"></i>
+
+                                <span class="remove2">
+                                    
+                                    Remove
+                                
+                                </span>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="cart-total">
+
+                    <p>
+
+                        <span>
+                            
+                            Total Price
+                        
+                        </span>
+
+                        <span id="temp">
+                            
+                            Rs. 1350
+                        
+                        </span>
+
+                    </p>
+                    <p>
+
+                        <span>
+                            
+                            No. of Items
+                        
+                        </span>
+
+                        <span>
+                            
+                            2
+                        
+                        </span>
+
+                    </p>
+
+                    <a href="Details For Checkout HTML.html">
+                        
+                        Proceed to Checkout
+                    
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+        <script>
+            $(document).ready(function(){
+                $(".remove1").click(function(){
+                    $(".product1").remove();
+                });
+            });
+            $(document).ready(function(){
+                $(".remove2").click(function(){
+                    $(".product2").remove();
+                });
+            });
+        </script>
+    </body>
+
+</html>

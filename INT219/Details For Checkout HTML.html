@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta http-equiv="contact-type" content="text/html; charset-utf-8"/>
+
+        <meta name="viewport" content="width-device-width,initial-scale=1,mininmum-scale=1,maximum-scale=1,user-scalable=no">
+
+        <title>
+            
+            Details for Delivery
+        
+        </title>
+
+        <link href="Details For Checkout CSS.css" rel="stylesheet" type="text/css" />
+        
+        <link rel="shortcut icon" type="image/jpg" href="C:\Users\hp\Desktop\College\First Semester\Introduction To Web Technologies\Notepad ++ Files\Project\favicon.ico"/>
+
+        <script src="Details For Checkout JS.js"></script>
+
+    
+    </head>
+
+    <body>
+        <nav class="navigation">
+            <a href="index.html" class="logo" style="text-decoration: none;color: white;">
+
+                <span style="color: rgb(255, 140, 0);">Fancy</span>Garments
+
+            </a>
+        </nav>
+
+        <div class="contact-in">
+
+
+            <div class="contact-form">
+
+                <h1 align = 'center' style="color: red;">
+                    
+                    Details For Delivery
+                
+                </h1>
+
+                <div id="error_message"></div>
+
+                <form class = 'address_form' onsubmit="return validate_form();" action="index.html">
+
+                    <input type="text" placeholder="Name" class="contact-form-txt" id = 'name' required/>
+
+                    <input type="text" placeholder="Address" class="contact-form-txt" id = 'address' required/>
+
+                    <input type="text" placeholder="Email-ID" class="contact-form-txt" id = 'email' required/>
+
+                    <input type="text" placeholder="Locality/Apartment" class="contact-form-txt" required/>
+
+                    <input type="text" placeholder="Pincode" class="contact-form-txt" id = 'pincode' required/>
+
+                    <input type="text" placeholder="Contact No." class="contact-form-txt" id = 'phone' required/>
+
+                    <input type="text" placeholder="Date (Format: dd/mm/yyyy)" class="contact-form-txt" id = 'date' required/>
+
+                    <input type="text" placeholder="Time Slot (Format: Starting Time - Ending Time. Give a duration of 2 hours.)" class="contact-form-txt" id = 'time' required/>
+
+                    <button type="submit" class="contact-form-btn" id = 'submit'>
+
+                        <a href = 'Payment HTML.html' style = "cursor: pointer; text-decoration: none; color: rgb(255, 255, 255);">
+                            
+                            <b>Submit</b>
+        
+                        </a>
+                    
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

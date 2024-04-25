@@ -1,0 +1,12 @@
+{
+  "name": "Ishaan",
+  "email": "ikhullar157@gmail.com",
+  "password": "1388425",
+  "gender": "male",
+  "shipmentInfo": {
+    "billingAddress": "402, Sector 19, Noida, Uttar Pradesh, India",
+    "pincode": "713364",
+    "lastOrderShippedOn": "January 10, 2024",
+    "redeemCard": "hello"
+  }
+}
