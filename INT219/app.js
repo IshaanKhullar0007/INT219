@@ -7,7 +7,7 @@ const port = process.env.PORT || 7000; // Use the dynamic port assigned by Herok
 
 app.use(bodyParser.urlencoded({ extended: true }));
 // app.use('/images', express.static('images'));
-app.use(express.static('C:\\Users\\Ishaan\\Desktop\\Fancy-Garments - Copy'));
+app.use(express.static('INT219'));
 
 // Function to load pre-defined values from JSON file
 function loadPreDefinedValues() {
